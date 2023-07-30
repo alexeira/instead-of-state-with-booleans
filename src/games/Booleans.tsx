@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react'
 
-import { emojis } from '../../constants/emojis'
+import { emojis } from '../constants/emojis'
 
 export function Booleans() {
+  // Although we have 3 possible states, each state has 2 possible values, which mean we have 6 possible states
   const [playing, setPlaying] = useState(false)
   const [paused, setPaused] = useState(false)
   const [gameOver, setGameOver] = useState(false)

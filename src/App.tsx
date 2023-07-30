@@ -1,5 +1,5 @@
 import { Layout } from './components/Layout'
-import { Booleans } from './games/booleans/Booleans'
+import { Booleans } from './games/Booleans'
 
 export default function App() {
   return (
